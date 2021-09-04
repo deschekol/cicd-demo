@@ -32,10 +32,10 @@
 				<configuration>
 				    <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>4.3</muleVersion>
+				      <muleVersion>4.3.0</muleVersion>
 				      <username>deschekol921</username>
 				      <password>Yfdc@7045893297</password>
-				      <applicationName>cicd-sat-dc09042021</applicationName>
+				      <applicationName>cicd-sat-app1</applicationName>
 				      <environment>QA</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
@@ -43,7 +43,8 @@
 				      <properties>
 				        <key>true</key>
 				      </properties>
-				    </cloudHubDeployment>
+				      <objectStoreV2>true</objectStoreV2>
+				    </cloudHubDeployment>				    
 			  </configuration>
 			</plugin>
 
