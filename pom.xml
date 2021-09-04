@@ -42,7 +42,7 @@
 			      <username>deschekol921</username>
 			      <password>Yfdc@7045893297</password>
 			      <applicationName>cicd-demo-dc09022021</applicationName>
-			      <environment>qa</environment>
+			      <environment>QA</environment>
 			      <region>us-east-2</region>
 			      <workers>1</workers>
 			      <workerType>MICRO</workerType>
